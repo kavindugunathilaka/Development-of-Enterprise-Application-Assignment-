@@ -1,0 +1,182 @@
+$first-div-color:hsla(204, 63%, 30%, 0.9);
+$second-div-color:hsla(204, 63%, 20%, 0.83);
+$third-div-color:hsla(264, 63%, 30%, 0.7);
+
+body{
+   background-image: url(Images/bg3.jpg);
+         background-size: 100%;
+
+ }
+
+ img {
+ border-radius: 15px;
+ }
+
+ .cards::-webkit-scrollbar {
+display: none;
+}
+
+
+.pageDiv{
+  height: 800px;
+  width: auto;
+}
+
+.firstDiv{
+  background-color: $first-div-color;
+  height: 50%;
+  background-size: 100% 100%;
+      font-family:'Ubuntu','sans-serif';
+      text-align: center;
+      width: 12%;
+      float: left;
+      margin-left: 1%;
+      margin-top: 5%;
+      border-radius: 16px;
+  padding: 2%;
+}
+
+.secondDiv{
+  //background-color: $second-div-color;
+  height:90%;
+  float: left;
+  width: 50%;
+  margin-left: 1%;
+  margin-top: 5%;
+  // margin-bottom: 2%;
+  // height: 20%;
+  margin-top: 1%;
+  overflow-y: auto;
+}
+
+.thirdDiv{
+
+  border-radius: 8px;
+  padding:2%;
+  background-color: $third-div-color;
+  height: 60%;
+  float:right;
+  width: auto;
+  margin-right: 1%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.dash-menu-content{
+  align-self: center;
+  display:inline;
+  float: left;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+  size: auto;
+  margin-top: 5%;
+  margin-left: 1%;
+  color: black;
+  background-color: none;
+}
+
+.event-card {
+      margin-top: 2%;
+      // padding: 2%;
+      margin-left: 5%;
+      background-color: hsla(206, 57%, 90%, 0.5);
+      transition: 0.5s;
+      border-radius: 15px;
+      overflow: auto;
+      width: 70%;
+      // height: 20%
+}
+
+.event-img{
+width: auto;
+height: 100%;
+float: right;
+background-color: grey;
+
+}
+
+.event-detail{
+  background-color: black;
+float:left;
+padding: 1%;
+width:40%;
+font-family: 'Raleway', sans-serif;
+font-size: 14px;
+font-weight: bold;
+color: white;
+height: 100%;
+}
+.event-card-btn{
+  align-self: center;
+  width: 100%;
+  height: auto;
+  float: left;
+  background-color: none;
+  padding: 1%;
+}
+// .cards{
+// height: 100%;
+// width: 100%;
+// overflow-y: auto;
+// margin-top: 1%;
+// }
+
+.header {
+  /* background-color: black; */
+  /* margin-top: 1%; */
+  /* margin-bottom: 1%; */
+  /* height: 10%; */
+  /* width: 100%; */
+ }
+
+
+
+.signup-fieldset{
+  /* width: 60%; */
+  height: auto;
+}
+
+.signup-table{
+  width: 100%;
+  /* align-items: center; */
+  /* align-content: center; */
+  /* width:90%; */
+}
+.signup-table tr td{
+  align-content: center;
+  /* width:60%; */
+  padding: 1%;
+}
+
+.form-text-box , .form-text-box-left , .form-text-box-right{
+    border:2px solid #145D7A;
+    padding:2%;
+    border-radius: 8px;
+    background-color: white;
+    width: 70%;
+  }
+
+.form-text-box-left{
+  /* margin-right: 1%; */
+}
+.form-text-box-right{
+  /* margin-left: 1%; */
+}
+.signup-btn{
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  border: none;
+  decoration:none;
+  background: none;
+  color: white;
+  size:auto;
+  padding: 2%;
+  border-radius: 8px;
+  background-color: #315580;
+  width: 80%;
+}
+/*# sourceMappingURL=signup-css.css.map */

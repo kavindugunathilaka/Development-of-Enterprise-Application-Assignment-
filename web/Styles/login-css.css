@@ -1,0 +1,42 @@
+body{
+   background-image: url(bg3.jpg);
+         background-size: cover;
+
+ }
+.page-div {
+  margin-top: 10%;
+  margin-bottom: 15%;
+  /* align-content: center; */
+ }
+
+.form-text-box{
+  border:2px solid #145D7A;
+  padding:2%;
+  border-radius: 8px;
+  background-color: white;
+  width: 70%;
+}
+
+.login-btn{
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    border: none;
+    decoration:none;
+    background: none;
+    color: white;
+    size:auto;
+    padding: 2%;
+    border-radius: 8px;
+    background-color: #315580;
+    width: 80%;
+}
+
+.login-table tr td{
+  padding: 1%;
+  /* width: 30%; */
+}
+
+table{
+  width: 30%;
+}

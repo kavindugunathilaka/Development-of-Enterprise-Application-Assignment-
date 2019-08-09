@@ -1,0 +1,70 @@
+body{
+   background-image: url(bg3.jpg);
+         background-size: cover;
+
+ }
+.header {
+  /* background-color: black; */
+  /* margin-top: 1%; */
+  /* margin-bottom: 1%; */
+  /* height: 10%; */
+  /* width: 100%; */
+ }
+
+.page-div {
+  margin-top: 5%;
+  margin-bottom: 1%;
+  /* align-content: center; */
+ }
+
+.signup-fieldset{
+  /* width: 60%; */
+  height: auto;
+}
+
+.signup-table{
+  width: 60%;
+  /* align-items: center; */
+  /* align-content: center; */
+  /* width:90%; */
+}
+.signup-table tr td{
+  align-content: center;
+  /* width:60%; */
+  padding: 1%;
+}
+
+.signup-form-div {
+  /* background-color: grey; */
+  width: 50%;
+  padding: 2%; }
+
+.form-text-box , .form-text-box-left , .form-text-box-right{
+    border:2px solid #145D7A;
+    padding:2%;
+    border-radius: 8px;
+    background-color: white;
+    width: 70%;
+  }
+
+.form-text-box-left{
+  /* margin-right: 1%; */
+}
+.form-text-box-right{
+  /* margin-left: 1%; */
+}
+.signup-btn{
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  border: none;
+  decoration:none;
+  background: none;
+  color: white;
+  size:auto;
+  padding: 2%;
+  border-radius: 8px;
+  background-color: #315580;
+  width: 80%;
+}
+/*# sourceMappingURL=signup-css.css.map */

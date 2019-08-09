@@ -1,0 +1,71 @@
+.nav-bar {
+  /* margin-top: 1%; */
+  /* margin-bottom: 1%; */
+  /* position: fixed; */
+  /* background-size: 100% 100%; */
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding: 1%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 16px;
+  /* background-color: rgba(215, 231, 244, 0.5); */
+  background-color: none;
+ }
+
+ .nav-btn{
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+   font-weight: bold;
+   border:none;
+   decoration:none;
+   background: none;
+ }
+
+.nav-content, .nav-content-left {
+  display: inline;
+  float: left;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+  size: auto;
+  margin-left: 2%;
+  color: black;
+}
+
+.login-panel {
+  align-content: center;
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: transparent;
+  padding-top: 1%;
+}
+
+.login-panel-content {
+  font-size: 24px;
+  align-content: center;
+  font-family: "Ubuntu", "sans-serif";
+  padding: 1%;
+  background-color: rgba(29, 77, 114, 0.8);
+  margin: 5% 10% 20% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border-radius: 8px;
+  width: 20%;
+  /* Could be more or less, depending on screen size */ }
+
+.nav-content-left {
+  float: right; }
+
+.images-slide {
+  width: 10%; }
+
+.images-in-slide {
+  width: 100%; }
+
+/*# sourceMappingURL=header-css.css.map */

@@ -1,0 +1,27 @@
+footer {
+  width: 98%;
+}
+
+.footer-table{
+  margin-left: 20%;
+  align-content: center;
+  width: 50%; }
+
+.footer-div {
+  background-color: rgba(29, 77, 114, 0.94);
+  font-family: "Ubuntu", "sans-serif";
+  font-size: 16px;
+  width: 100%;
+  height: auto;
+  padding: 1%;
+  color: white; }
+
+.footer-div table tr td {
+  align-content: center;
+  margin: 1%;
+  padding: 2%; }
+
+.footer-div table {
+  align-self: center; }
+
+/*# sourceMappingURL=footer-css.css.map */

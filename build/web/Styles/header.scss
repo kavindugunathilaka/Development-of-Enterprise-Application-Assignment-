@@ -1,0 +1,43 @@
+$nav-header-font: 'Raleway', sans-serif;
+$nav-header-color:hsla(206, 57%, 90%, 0.5);
+$nav-content-color:black;
+.nav-bar{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  position: fixed;
+  background-size: 100% 100%;
+  font-family:$nav-header-font;
+  text-align: center;
+  padding: 2%;
+  width: 75%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 16px;
+  background-color: $nav-header-color;
+}
+
+.nav-content , .nav-content-left{
+  display: inline;
+  float: left;
+  font-family:$nav-header-font;
+  font-size: 16px;
+  font-weight: bold;
+  border:none;
+  text-decoration: none;
+  size:auto;
+  margin-left: 2%;
+  color: $nav-content-color;
+}
+
+.nav-content-left{
+  float: right;
+}
+
+.images-slide{
+  width:10%;
+}
+
+.images-in-slide{
+//  height: 30%;
+  width: 100%;
+}
